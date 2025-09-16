@@ -168,11 +168,11 @@ function App() {
             </div>
             <footer>
                 <h3>Dermascan</h3>
-                <div>
-                    <p>Sobre nosotros</p>
-                    <p>Características</p>
-                    <p>Contacto</p>
-                    <p>Descargar</p>
+                <div className='divfooter'>
+                    <a>Sobre nosotros</a>
+                    <a>Características</a>
+                    <a>Contacto</a>
+                    <a>Descargar</a>
                 </div>
                 <p>© 2024 DermaScan. Detectar a tiempo salva vidas</p>
             </footer>

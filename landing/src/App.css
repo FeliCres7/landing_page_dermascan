@@ -418,3 +418,33 @@ font-size: 15px;
 .div6{
   padding-bottom: 15vh;
 }
+footer{
+  display: flex;
+  flex-direction: column;
+  background-color: #424242;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  padding-top: 5vh;
+}
+footer h3{
+  font-size: 40px;
+  font-weight: 400;
+}
+footer div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-top: 25px;
+}
+.divfooter *{
+  width: 10vw;
+  margin-bottom: 0;
+  font-size: 20px;
+}
+footer p{
+  margin-bottom: 50px;
+  font-size: 20px;
+}
