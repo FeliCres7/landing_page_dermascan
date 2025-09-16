@@ -150,7 +150,7 @@ button{
   align-items: center;
   margin: 0 15vw;
 }
-.div2 div{
+.divdiv2{
   display: flex;
   flex-direction: column;
   background-color: #ffffff;
@@ -158,4 +158,97 @@ button{
   align-items: center;
   justify-content: center;
   text-align: center;
+  padding: 30px;
+  border-radius: 25px;
+  height: 40vh;
+}
+.divdiv2 *{
+  padding-bottom: 15px;
+}
+.divdiv2 h2{
+  font-size: 25px;
+}
+.divarribadiv2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10vh 5vw;
+  margin-bottom: 5vh;
+}
+.divabajodiv2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10vh 5vw;
+  padding-bottom: 10vh;
+}
+.divabajodiv2 div{
+  margin: 0 3vw;
+}
+.div3{
+  padding-bottom: 70px;
+}
+.div3 h1{
+  text-align: center;
+  align-items: center;
+  font-size: 80px;
+  color: #222;
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+.div3 h2{
+  text-align: center;
+  align-items: center;
+  font-size: 35px;
+  color: #424242;
+  font-weight: 400;
+ padding: 5px 15vw;
+ margin-bottom: 30px;
+}
+.divdiv3{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 30vw;
+text-align: center;
+box-shadow: 2px 2px 5px #00000066;
+padding: 30px;
+padding-bottom: 60px;
+border-radius: 35px;
+}
+.divdiv3 *{
+  margin-bottom: 30px;
+}
+.divdiv3 h3{
+  font-weight: 600;
+  font-size: 30px;
+}
+.pdiv3{
+  font-size: 20px;
+  margin: auto 10%;
+}
+.containerdiv3{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5vh 3vw;
+}
+.numdiv3{
+font-size: 25px;
+font-weight: 600;
+}
+
+.div4h1{
+  align-items: center;
+  font-size: 70px;
+  color: #222;
+  margin-top: 40px;
+  margin-bottom: 25px;
+  padding-right: 20%;
+  padding-top: 10vh;
+  margin-left: 3vw;
+  padding-bottom: 5vh;
+}
+.div4{
+  background-color: #F1F1F1;
 }
