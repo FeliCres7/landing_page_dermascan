@@ -67,58 +67,69 @@ function App() {
 
             </div>
 
-            <div className='div4'><div>
+            <div className='div4'>
                 <h1 className='div4h1'>¿Por Qué es Tan Importante la Detección Temprana?</h1>
+                <div className='containerdiv4'>
+                <div className='leftdiv4'>
                 <h3>El melanoma es la forma más peligrosa de cáncer de piel, pero cuando se detecta tempranamente, tiene una
                     tasa de supervivencia del 99%. La prevención y detección oportuna pueden salvar vidas.</h3>
-                <ul>
-                    <li>Principal causa de muerte por cáncer de piel</li>
-                    <li>Mayor incidencia en personas de piel clara</li>
-                    <li>Causado principalmente por exposición UV</li>
-                    <li>99% curable si se detecta tempranamente</li>
+                <ul className='uldiv4'>
+                    <li><img className='imgdiv3' src="/iconcheck.png" alt="" /><p>Principal causa de muerte por cáncer de piel</p></li>
+                    <li><img className='imgdiv3' src="/iconcheck.png" alt="" /><p>Mayor incidencia en personas de piel clara</p></li>
+                    <li><img className='imgdiv3' src="/iconcheck.png" alt="" /><p>Causado principalmente por exposición UV</p></li>
+                    <li><img className='imgdiv3' src="/iconcheck.png" alt="" /><p>99% curable si se detecta tempranamente</p></li>
                 </ul>
             </div>
-                <div>
+                <div className='rightdiv4'>
+                    <div className='divcontdiv4'>
                     <div>
-                        <h1>99%</h1>
+                        <h1 className='titlediv4'>99%</h1>
                         <h3>Tasa de Supervivencia</h3>
                         <p>Cuando se detecta en etapa temprana</p>
                     </div>
                     <div>
-                        <h1>1 de 27</h1>
+                        <h1 className='titlediv4'>1 de 27</h1>
                         <h3>Hombres</h3>
                         <p>Desarrollarán melanoma en su vida</p>
-                    </div>
+                    </div></div>
+                    <div className='divcontdiv4'>
                     <div>
-                        <h1>1 de 40</h1>
+                        <h1 className='titlediv4'>1 de 40</h1>
                         <h3>Mujeres</h3>
                         <p>Desarrollarán melanoma en su vida</p>
                     </div>
                     <div>
-                        <h1>90%</h1>
+                        <h1 className='titlediv4'>90%</h1>
                         <h3>Casos Prevenibles</h3>
                         <p>Con protección solar adecuada</p>
                     </div>
+                    </div>
+                </div>
                 </div>
             </div>
 
 
-            <div>
+            <div className='div5-6'>
+                <div className='div5'>
                 <h1>Tu Piel No Puede Esperar</h1>
                 <h2>Cada día cuenta cuando se trata de detectar cambios en tu piel. Descarga DermaScan hoy y comienza a proteger
                     tu salud con la tecnología más avanzada.</h2>
-                <button>Descargar para iOS</button>
-                <button>Descargar para Android</button>
-                <div>
-                    <div>
+                    <div className='buttonsdiv5'><button className='buttonandroid'><img className='imgbtn'  src="/icongoogleplay.png" alt="" /><p>Descargar para Android</p></button>
+                <button className='buttonios'><img className='imgbtn' src="/iconapple.png" alt="" /><p>Descargar para iOS</p></button></div>
+                
+                <div className='divsdiv5'>
+                    <div className='divdiv5'>
+                        <img className='imgdiv3' src="/iconcheck.png" alt="" />
                         <h3>Análisis instantáneo</h3>
                         <p>Resultados en segundos</p>
                     </div>
-                    <div>
+                    <div className='divdiv5'>
+                        <img className='imgdiv3' src="/iconcheck.png" alt="" />
                         <h3>Alta precisión</h3>
                         <p>Modelo IA con alta predictibilidad</p>
                     </div>
-                    <div>
+                    <div className='divdiv5'>
+                        <img className='imgdiv3' src="/iconcheck.png" alt="" />
                         <h3>Consejos por profesionales</h3>
                         <p>Múltiples consejos para el cuidado de la piel</p>
                     </div>
@@ -126,7 +137,7 @@ function App() {
             </div>
 
 
-            <div>
+            <div className='div6'>
                 <h1>Preguntas frecuentes</h1>
                 <ul>
                     <li>
@@ -154,7 +165,7 @@ function App() {
                     </li>
                 </ul>
             </div>
-
+            </div>
             <footer>
                 <h3>Dermascan</h3>
                 <div>
